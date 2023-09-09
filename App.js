@@ -1,20 +1,7 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+// import { StatusBar } from "expo-status-bar";
+// import { StyleSheet, Text, View } from "react-native";
+import RegistrationScreen from "./Screens/RegistrationScreen";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>piska</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <RegistrationScreen />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "green",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
